@@ -3,7 +3,7 @@ services:
 
   proxy:
     ports:
-      - "20080:80"
+      - "80:80"
       - "28090:8080"
     command:
       # Enable Docker in Traefik, so that it reads labels from Docker services
